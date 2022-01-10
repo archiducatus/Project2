@@ -74,7 +74,7 @@ public:
 		}
 	}
 	void add_month(int inc) {
-		for (;;) {
+		for (;;) { 
 			if (inc < 1) {
 				break;
 			} else if ((inc + month_) > 12) {
